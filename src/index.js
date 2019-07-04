@@ -55,7 +55,7 @@ export default {
       snaptr('init', 'ff1bd3b4-73be-421f-8028-fb8fd3197c1f', advancedMatching); // eslint-disable-line no-undef
 
       initialized = true;
-      debug = options.debug;
+      ({ debug } = options);
     }
   },
 
