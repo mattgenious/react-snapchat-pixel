@@ -52,7 +52,7 @@ export default {
     if (!pixelId) {
       console.warn('Please insert pixel id for initializing');
     } else {
-      snaptr('init', 'ff1bd3b4-73be-421f-8028-fb8fd3197c1f', advancedMatching); // eslint-disable-line no-undef
+      snaptr('init', pixelId, advancedMatching); // eslint-disable-line no-undef
 
       initialized = true;
       ({ debug } = options);
